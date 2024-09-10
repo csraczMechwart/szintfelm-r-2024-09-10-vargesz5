@@ -36,5 +36,24 @@ namespace foci
                 Console.WriteLine($"{item.Hazainev} {item.Vendegnev}: {item.Hazaigol}-{item.Vendeggol} ({item.Hazaifelidogol}-{item.Vendegfelidogol})");
             }
         }
+        public void Feladat2()
+        {
+            foreach (var item in adatok)
+            { 
+                if(item.Hazaifelidogol < item.Vendegfelidogol && item.Hazaigol> item.Vendeggol)
+                {
+                    Console.WriteLine($"Forduló: {item.Fordulo} GyőztesCsapat: {item.Hazainev}");
+                }
+                if (item.Hazaifelidogol > item.Vendegfelidogol && item.Hazaigol < item.Vendeggol)
+                {
+                    Console.WriteLine($"Fordulo: {item.Fordulo} GyőztesCsapat: {item.Vendegnev}");
+                }
+            }
+        }
+        public void Feladat3()
+        {
+
+        }
+
     }
 }
