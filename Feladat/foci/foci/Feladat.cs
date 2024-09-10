@@ -55,8 +55,25 @@ namespace foci
         {
             Console.Write("Adj meg egy csapatnevet: ");
             string nev = Console.ReadLine();
-            csapatnev.Add( nev );
+            if (nev == "")
+            {
+                nev = "LelkesCsapatnév";
+            }
+            csapatnev.Add(nev);
+            int kapott = 0;
+            int lőtt = 0;
+            foreach (var item in adatok)
+            {
+                if (nev == item.Hazainev)
+                {
+                    lőtt += item.Hazaigol;
+                }
+                if (nev == item.Vendegnev)
+                {
+                    kapott += item.Vendeggol;
+                }
+            }
+            Console.WriteLine($"Kapott: {kapott} Lőtt: {lőtt}");
         }
-
     }
 }
