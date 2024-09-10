@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "foci", "foci\foci.csproj", "{DEC301F8-75F2-4582-9749-483F6D80D7BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEC301F8-75F2-4582-9749-483F6D80D7BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC301F8-75F2-4582-9749-483F6D80D7BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC301F8-75F2-4582-9749-483F6D80D7BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC301F8-75F2-4582-9749-483F6D80D7BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {196F42DD-4485-4B52-95FD-C035D0B90817}
+	EndGlobalSection
+EndGlobal
