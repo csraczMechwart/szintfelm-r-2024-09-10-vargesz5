@@ -9,6 +9,7 @@ namespace foci
     internal class Feladat
     {
         public List<merkozesek> adatok;
+        public List<string> csapatnev;
         public Feladat(string filename)
         {
             adatok = new();
@@ -52,7 +53,9 @@ namespace foci
         }
         public void Feladat3()
         {
-
+            Console.Write("Adj meg egy csapatnevet: ");
+            string nev = Console.ReadLine();
+            csapatnev.Add( nev );
         }
 
     }
